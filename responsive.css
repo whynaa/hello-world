@@ -1,0 +1,73 @@
+/* Untuk Tablets */
+
+/* Tambahkan breakpoint max-width: 1000px */
+@media (max-width: 1000px) {
+    /* Tambahkan CSS untuk lesson */
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+
+    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+
+    /* Tambahkan CSS untuk tag <h2> didalam heading */
+    .top-wrapper h2 {
+        font-size: 20px;
+    }
+}
+
+/* Untuk Smartphones */
+
+/* Tambahkan breakpoint max-width: 670px */
+@media (max-width: 670px) {
+    /* Ubah width milik lesson ke 100% */
+    .lesson {
+      width: 100%;
+    }
+    
+    /* Ubah text-align property milik <footer> */
+    footer {
+      text-align: center;
+    }
+
+      /* Gantikan width btn ke 100% */
+    .btn {
+        width: 100%;
+    }
+  
+    /* Gantikan margin-bottom facebook ke 10px */
+    .facebook {
+        margin-bottom: 10px;
+    }
+    
+    /* Tambahkan CSS untuk top-wrapper */
+    .top-wrapper {
+        text-align: left;
+        padding-top: 130px;
+    }
+
+    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    /* Tambahkan CSS untuk tag <p> didalam top-wrapper */
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    /* Tambahkan CSS untuk header-right */
+    .header-right {
+        display: none;
+    }
+    
+    /* Tambahkan CSS untuk menu-icon */
+    .menu-icon  {
+        display: block;
+    }
+}
